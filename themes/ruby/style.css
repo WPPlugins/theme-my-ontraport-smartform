@@ -1,0 +1,377 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face{
+	font-family:'DNLTL';
+	src:url("./fonts/DNLTL.eot");
+	src:url("fonts/DNLTL.eot?#iefix") format("embedded-opentype"),
+	url("fonts/DNLTL.woff") format("woff"),
+	url("fonts/DNLTL.ttf") format("truetype"),
+	url("fonts/DNLTL.svg#DNLTL") format("svg")
+
+}
+
+ ::-moz-selection {
+    background:#dedede !important;
+    color: #484848 !important;
+    text-shadow: none !important;
+}
+
+.ussr-grid-wrapper{ min-width: inherit !important; max-width: inherit !important;}
+.moonray-form, .moonray_forms { width:100% !important;}
+.moonray-form *, .moonray_forms *{ font-family:'DNLTL' , sans-serif !important; font-size:14px !important; color:#222 !important; box-sizing:border-box;}
+.moonray-form label, .moonray_forms label {
+    display: block !important;
+    padding: 0 0 8px !important;
+	margin:0 !important;
+	font-family:'DNLTL' , sans-serif !important;
+	font-size:23px !important;
+	color:#333 !important;
+	width: 100% !important;
+	/*color:#757575 !important;*/
+}
+.moonray_forms input[type=text],.moonray_forms input[type=tel],
+.moonray_forms input[type=email],
+.moonray_forms input[type=password],
+.moonray_forms input[type=number],
+.moonray_forms select{
+	margin-bottom:10px !important;
+	margin-top:10px !important;
+}
+.moonray_forms .row{ }
+.moonray_forms .cell{ width:50%; margin:0 !important; float: left !important;}
+.moonray_forms .cell:first-child{ padding-right:15px;}
+.moonray-form input[type=text],.moonray-form input[type=tel],
+.moonray-form input[type=email],
+.moonray-form input[type=password],
+.moonray-form input[type=number],
+.moonray-form select,
+.moonray_forms input[type=text],.moonray_forms input[type=tel],
+.moonray_forms input[type=email],
+.moonray_forms input[type=password],
+.moonray_forms input[type=number],
+.moonray_forms select{
+    background: none repeat scroll 0 0 #fff !important;
+    border: 1px solid #cdcdcd !important;
+    border-radius: 5px !important;
+    box-shadow: none !important;
+    clear: both !important;
+    display: block !important;
+    font-size: 27px !important;
+	font-family:'DNLTL' !important;
+    padding: 9px !important;
+	width:100% !important;
+	transition: all 0.2s ease-in-out 0s !important;
+	height:55px !important;
+	color:#757575 !important;
+	min-width:75px !important;
+	vertical-align:middle !important;
+	float:none !important;
+	position:relative !important;
+	z-index:99;
+	
+}
+
+.ussr-helper-position-absolute, .position-absolute {
+    left: auto !important;
+    position: absolute;
+    right: 5px;
+    top: 13px !important;
+}
+
+
+.moonray-form input[type=text].moonray-form-state-error,.moonray-form input[type=tel].moonray-form-state-error,
+.moonray-form input[type=email].moonray-form-state-error,
+.moonray-form input[type=password].moonray-form-state-error,
+.moonray-form input[type=number].moonray-form-state-error,
+.moonray-form select.moonray-form-state-error,
+.moonray_forms input[type=text].mr_error,.moonray_forms input[type=tel].mr_error,
+.moonray_forms input[type=email].mr_error,
+.moonray_forms input[type=password].mr_error,
+.moonray_forms input[type=number].mr_error,
+.moonray_forms select.mr_error{ border:solid 1px #f00 !important;}
+
+.moonray-form-state-error:focus{ border:solid 1px #000 !important;}
+
+.moonray-form input[type=text]:focus,.moonray-form input[type=tel]:focus,
+.moonray-form input[type=email]:focus,
+.moonray-form input[type=password]:focus,
+.moonray-form input[type=number]:focus,
+.moonray-form select:focus,
+.moonray_forms input[type=text]:focus,.moonray_forms input[type=tel]:focus,
+.moonray_forms input[type=email]:focus,
+.moonray_forms input[type=password]:focus,
+.moonray_forms input[type=number]:focus,
+.moonray_forms select:focus{
+	border-top: 1px solid rgba(0, 90, 7, 0.6) !important;
+    box-shadow: 0 1px 8px #21291b !important;
+    color: #333 !important;
+    outline: medium none !important;
+}
+.moonray-form .moonray-form-payments-element input[type=text],.moonray-form .moonray-form-payments-element input[type=tel],
+.moonray-form .moonray-form-payments-element input[type=email],
+.moonray-form .moonray-form-payments-element input[type=password],
+.moonray-form .moonray-form-payments-element input[type=number],
+.moonray-form .moonray-form-payments-element select,
+.moonray_forms .paymentInfo input[type=text],.moonray_forms .paymentInfo input[type=tel],
+.moonray_forms .paymentInfo input[type=email],
+.moonray_forms .paymentInfo input[type=password],
+.moonray_forms .paymentInfo input[type=number],
+.moonray_forms .paymentInfo select{
+	background-color:#FFFCED !important;
+}
+.moonray-form .moonray-form-payments-element input[type=text]:focus,.moonray-form .moonray-form-payments-element input[type=tel]:focus,
+.moonray-form .moonray-form-payments-element input[type=email]:focus,
+.moonray-form .moonray-form-payments-element input[type=password]:focus,
+.moonray-form .moonray-form-payments-element input[type=number]:focus,
+.moonray-form .moonray-form-payments-element select:focus,
+.moonray_forms .paymentInfo input[type=text]:focus,.moonray_forms .paymentInfo input[type=tel]:focus,
+.moonray_forms .paymentInfo input[type=email]:focus,
+.moonray_forms .paymentInfo input[type=password]:focus,
+.moonray_forms .paymentInfo input[type=number]:focus,
+.moonray_forms .paymentInfo select:focus{
+	border-top: 1px solid rgba(0, 90, 7, 0.6) !important;
+    box-shadow: 0 1px 8px #465739 !important;
+    color: #333 !important;
+    outline: medium none !important;
+}
+.moonray-form .moonray-form-element-separator .moonray-form-element-separator-legend span, .moonray_forms legend {
+    display: inline-block !important;
+    font-size: 27px !important;
+    overflow: visible !important;
+    padding: 0.2em 0.5em 0.2em 0 !important;
+    position: relative !important;
+    top: auto !important;
+    vertical-align: middle !important;
+	color: #222 !important;
+	font-weight:600 !important;
+}
+.moonray-form .moonray-form-element-separator .moonray-form-element-separator-legend{ position:relative !important; height:auto !important;}
+.ussr-grid-wrapper { padding:0px !important;}
+.moonray-form .moonray-form-element-separator{
+	margin: 0px;
+	border:0 !important;	
+}
+.moonray-form-element-wrapper{ padding:5px !important; width: 100% !important;}
+.moonray-form-element-paymentmethod{ width:100% !important;}
+.moonray-form .moonray-form-element-paymentmethod .moonray-form-element-wrapper {
+    display: block;
+    float: none;
+    width: 100% !important;
+}
+.moonray-form-element-sub-text{ font-size:13px !important; font-style:normal !important;}
+.moonray-form .moonray-form-element-paymentmethod .moonray-form-input-type-payment-number,
+.moonray-form .moonray-form-element-paymentmethod .moonray-form-input-type-payment-exp-month,
+.moonray_forms .cell.ccNum{
+    float: left !important;
+    width: 67% !important;
+    padding-left: 0 !important;
+}
+div.moonray_forms div.expire select.moonray_cc_expire_month{ display:block !important; float:left !important; width:67% !important;}
+div.moonray_forms div.expire select[name=payment_expire_year]{
+    clear: none !important;
+    display: block !important;
+    float: left !important;
+    margin-left: 3%;
+    width: 30% !important;
+}
+.moonray-form .moonray-form-element-paymentmethod .moonray-form-input-type-payment-code,
+.moonray-form .moonray-form-element-paymentmethod .moonray-form-input-type-payment-exp-year,
+.moonray_forms .cell.ccCVC{
+    padding-left:0;
+    width: 33% !important;
+}
+
+.moonray-form .moonray-form-element-paymentmethod{
+    display: block;
+    float: left;
+    padding: 0;
+	margin-right:10px;
+}
+.moonray_order_form_totals{
+	width:100%;
+}
+.moonray_forms .priceDisplay td{ padding:10px !important;}
+.moonray_forms .priceDisplay .label{ width:30% !important;}
+.moonray_forms .priceDisplay hr{ margin:0;}
+.moonray_forms .priceDisplay:last-child{ background:#E9E9E9}
+
+.moonray_forms button,
+.moonray_forms input[type=button],
+.moonray_forms input[type=submit],
+.moonray-form button,
+.moonray-form input[type=button],
+.moonray-form input[type=submit]{
+	background: #ffc154) !important; /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(255,193,84,1) 0%, rgba(228,118,1,1) 100%) !important; /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,193,84,1)), color-stop(100%,rgba(228,118,1,1))) !important; /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,193,84,1) 0%,rgba(228,118,1,1) 100%) !important; /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,193,84,1) 0%,rgba(228,118,1,1) 100%) !important; /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,193,84,1) 0%,rgba(228,118,1,1) 100%) !important; /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,193,84,1) 0%,rgba(228,118,1,1) 100%) !important; /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffc154', endColorstr='#e47601',GradientType=0 ); /* IE6-9 */
+
+    border:none !important;
+   	border-radius: 5px !important;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.2) !important;
+	text-shadow: 0 1px 0 #b94b00 !important;
+    color: #ffffff !important;
+    display: block !important;
+    font-size: 25px !important;
+	font-family:'DNLTL' !important;
+	font-weight:600 !important;
+    height: 56px !important;
+    margin: 0 auto 10px !important;
+    padding: 1.25em 1.953em !important;
+    text-align: center !important;
+	text-transform:uppercase;
+	line-height:1px !important;
+}
+.moonray_forms button:hover,
+.moonray_forms input[type=button]:hover,
+.moonray_forms input[type=submit]:hover,
+.moonray-form button:hover,
+.moonray-form input[type=button]:hover,
+.moonray-form input[type=submit]:hover{
+    box-shadow: none !important;
+}
+
+.moonray-form-payments-element th {
+    background: none repeat scroll 0 0 #eee !important;
+    border: 1px solid #e8e8e8 !important;
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    padding: 7px 10px !important;
+	color: #222 !important;
+	font-weight:600 !important;
+}
+.moonray-form-payments-element td.font-weight-bold{
+	color: #0e273d !important;
+	font-weight:600 !important;
+}
+.moonray-form-payments-element td {
+    border: 1px solid #e8e8e8 !important;
+    font-size: 14px !important;
+    padding: 7px 10px !important;
+}
+.moonray-form-payments-element table {
+    border-collapse: collapse !important;
+	margin:0 !important;
+}
+.moonray-form-payments-element tr {
+    border: 0 none !important;
+}
+.grid-summary {
+    margin-right: 0px !important;
+	border:0 !important;
+}
+.moonray-form-error-message {
+    display: block !important;
+    height: 50px;
+    padding: 0 10px !important;
+    z-index: 9999 !important;
+	display:none !important;
+}
+.moonray-form-error-message p {
+    line-height: 50px !important;
+    margin: 0 !important;
+}
+.moonray-form-payments-element td:last-child {
+    text-align: right !important;
+    /*width: 87px !important;*/
+}
+.moonray_forms input[type="checkbox"] {
+    float: left;
+    margin: 7px 10px 0 0;
+}
+.custom-error-message {
+    background: url("images/yellow-circle.png") no-repeat scroll 10px 15px #757575;
+    border-radius: 0 0 7px 7px;
+    box-shadow: 0 2px 20px #313628 inset;
+    clear: both;
+    color: #fff !important;
+    display: none;
+    font: 15px/2 DNRM;
+    margin-top: -10px !important;
+    padding: 10px 0 10px 32px;
+    text-shadow: 0 1px 1px #333;
+	text-align:left;
+}
+.moonray_forms .priceDisplay *{ font-size:20px !important;}
+div.mr_error_wrapper{ display:none !important}
+.moonray-form .form_error, .moonray_forms .form_error {
+    background: none repeat scroll 0 0 #fcfcfc;
+    border: 1px solid #f00;
+    margin-bottom: 20px;
+    padding: 10px;
+	color:#900 !important;
+	font-size:13px !important;
+}
+.moonray-form .mandatory, .moonray_forms .mandatory {
+    color: red !important;
+    font-size: 100% !important;
+    line-height: 100%;
+    padding-left: 6px !important;
+    position: absolute;
+}
+.moonray_forms a.cvchelp{ position:absolute; right:12px; top:68px; z-index:999}
+.moonray_forms .ccCVC{position: relative;}
+div.moonray_order_form input.checkbox, div.moonray_order_form label.checkbox {
+    display: inline !important;
+    float: none !important;
+}
+.moonray-form-error-message.coupon-error {
+    background-color: #ffffff !important;
+    border: 1px solid #ff0000;
+    border-radius: 3px;
+    box-sizing: border-box !important;
+    display: block !important;
+    height: auto !important;
+    left: 0;
+    line-height: 20px !important;
+    padding: 10px !important;
+    position: absolute !important;
+    width: 95% !important;
+    z-index: 9999;
+}
+.ussr-icon.ussr-icon-checkmark {
+    background-color: #eee;
+    border: 1px solid #999;
+    display: block;
+    height: 16px;
+    position: absolute;
+    right: 6px;
+    top: 18px;
+    width: 18px;
+	z-index:9999;
+}
+.coupon-code-submit-btn {
+    position: relative;
+	border:0 !important;
+	height:0 !important;
+}
+.moonray-form .moonray-form-input-type-payment-code, .moonray-form-input-type-payment-exp-year {
+    float: left !important;
+}
+.moonray-form input[name="couponCode"] {
+    padding-right: 28px !important;
+}
+.moonray-form label.checkbox, .moonray_forms label.checkbox, .moonray-form label.radio, .moonray_forms label.radio {
+    display: inline !important;
+    padding-left: 10px !important;
+}
+.moonray-form .moonray-form-input-type-payment-code, .moonray-form .moonray-form-input-type-payment-exp-year {
+    padding-left: 10px !important;
+}
+.moonray-form-payments-element td{ vertical-align:top !important;}
+.custom-error-message {
+    display: none !important;
+}
+.moonray-form-element-wrapper.moonray-form-element-wrapper-contracted.moonray-form-element-wrapper-alignment-left.moonray-form-input-type-select > br {
+    display: none;
+}
+.moonray-form-element-wrapper input[type=checkbox]{ margin-top:4px;}
+.ussr-helper-position-absolute, .position-absolute{ top:17px !important; z-index:99999;}
+.moonray-form input[name="couponCode"]{ height:auto !important;}
+.moonray-form, .moonray_forms{ position: relative;}
+.moonray-form .moonray-form-element-paymentmethod .moonray-form-element-paypal{ width:100% !important;}
